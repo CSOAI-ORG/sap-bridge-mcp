@@ -1,7 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
   "name": "io.github.CSOAI-ORG/sap-bridge-mcp",
-  "description": "SAP IDoc / RFC / ABAP bridge — parse, map, govern (SAP GRC / SOX).",
+  "description": "SAP IDoc / RFC / ABAP bridge \u2014 parse, map, govern (SAP GRC / SOX).",
   "version": "0.1.0",
-  "packages": [{"registry_type": "pypi", "identifier": "sap-bridge-mcp", "version": "0.1.0", "transport": {"type": "stdio"}}]
+  "packages": [
+    {
+      "identifier": "sap-bridge-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "registryType": "pypi",
+      "runtimeHint": "python"
+    }
+  ]
 }
