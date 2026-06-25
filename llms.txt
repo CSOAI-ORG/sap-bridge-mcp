@@ -1,0 +1,8 @@
+# sap-bridge-mcp
+# CSOAI Layer-0 legacy-bridge. Parse -> validate -> map -> govern -> attest.
+
+## Install
+```bash
+pip install -e .
+python server.py
+```
